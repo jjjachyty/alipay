@@ -193,7 +193,7 @@ func (this TradeClose) APIName() string {
 func (this TradeClose) Params() map[string]string {
 	var m = make(map[string]string)
 	m["app_auth_token"] = this.AppAuthToken
-	m["notify_url"] = this.NotifyURL
+	// m["notify_url"] = this.NotifyURL
 	return m
 }
 
